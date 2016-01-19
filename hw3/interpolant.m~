@@ -1,0 +1,4 @@
+function F = interpolant(x, y, v)
+
+  F = scatteredInterpolant(x, y, x);
+
